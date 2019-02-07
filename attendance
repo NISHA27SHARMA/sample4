@@ -1,0 +1,6 @@
+create table attendance(
+    -> emp_id int,
+    -> emp_name varchar(50),
+    -> dateday datetime,
+    -> attdnce varchar(8)
+    -> );
