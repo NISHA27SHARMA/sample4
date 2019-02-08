@@ -1,0 +1,9 @@
+ create table contacts(
+    -> contact_id int(11) not null auto_increment,
+    -> last_name varchar(30) not null,
+    -> first_name varchar(25),
+    -> birthday date,
+    -> created_date date,
+    -> created_by varchar(30),
+    -> constraint contacts_pk primary key (contact_id)
+    -> );
