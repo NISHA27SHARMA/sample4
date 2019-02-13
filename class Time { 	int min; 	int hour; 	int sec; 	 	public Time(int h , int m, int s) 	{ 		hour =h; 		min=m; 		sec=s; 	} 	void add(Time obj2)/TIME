@@ -1,0 +1,43 @@
+class Time
+{
+	int min;
+	int hour;
+	int sec;
+	
+	public Time(int h , int m, int s)
+	{
+		hour =h;
+		min=m;
+		sec=s;
+	}
+	void add(Time obj2)             //passing object
+	{	 
+		this.hour=this.hour+obj2.hour;
+		this.min=this.min+obj2.min;
+		this.sec=this.sec+obj2.sec;
+		if(sec>=60)
+		{
+			min++;
+			sec=sec%60;
+		}
+		if(min >=60)
+		{
+			hour++;
+			min=min%60;
+		}
+			
+	}
+	void display()
+	{
+		System.out.println(this.hour+ " : " + this.min+ " : " +this.sec);
+	}
+
+	public static void main(String[] args)
+	{
+		Time obj1=new Time(3,45,50);
+		Time obj2=new Time(9,20,55);
+		obj1.add(obj2);
+		System.out.println("The addition of two time is: ");
+	    obj1.display();
+	}
+}
