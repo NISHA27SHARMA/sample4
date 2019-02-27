@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#header
+{
+background-color : Yellow;
+color : red;
+text-align : center;
+padding : 5 px;
+}
+#navlinks 
+{
+line-height : 30 px;
+background-color : Gold;
+height : 350 px;
+width : 150 px;
+float : left;
+padding : 5px;
+}
+#section
+{
+width : 500 px;
+float : left;
+padding : 10 px;
+}
+#ASIDE
+{
+float : right
+}
+span{color:red}
+#footer
+{
+background-color : Yellow;
+color : white;
+clear : both;
+text-align : center;
+padding : 5 px;
+}
+</style>
+</head>
+<body>
+<div id = "header">
+<h1>New Horizons India ltd.</h1>
+</div>
+
+<div id  = "navlinks">
+<nav>
+<UL>
+<li> <a href = "">HTML</a></li>
+<li> <a href = "">JAVA SCRIPT</a></li>
+<li> <a href = "">CSS</a></li>
+<li> <a href = "">JQUERY</a></li>
+</UL>
+</nav>
+</div>
+
+<div id = "section">
+<h2>Web Designing</h2>
+<p>
+Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, content production, and graphic design. While the terms web design and web development are often used interchangeably, web design is technically a subset of the broader category of web development.
+</p>
+<p>
+Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.
+</p>
+<figure>
+<img src = "C:\Users\Training\Desktop\weblogo.png">
+<figcaption>Web Logo</figcaption>
+</figure>
+</div>
+
+<DIV ID = "ASIDE">
+<ASIDE>
+<IMG SRC = "C:\Users\Training\Desktop\weblogo.png">
+</ASIDE>
+</DIV>
+
+<div id = "footer">
+Copyright @ newhorizons.com
+</div>
+</body>
+</html>
